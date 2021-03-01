@@ -1,0 +1,15 @@
+#header {
+ 
+    color: rgb(17, 18, 19);
+    background-color: lightcoral;
+    border: black;
+    box-sizing: content-box;
+    text-align: center;
+
+}
+#main {
+
+    color: whitesmoke;
+    background-color: black;
+    text-size-adjust: 50px;
+}
