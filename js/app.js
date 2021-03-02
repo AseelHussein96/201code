@@ -2,8 +2,8 @@
 
 // intero : 
 let count = 0;
-let Name = prompt("before we start please put your name");
-alert("Welcome " + Name + "i hope you oki i will ask you some yes or no question ");
+let Name = prompt("Before we start please put your name");
+alert("Welcome " + Name + "i hope you are ok , lets start the gusseing game ");
 
 // if states for yes or no 
 // if for Q1:
@@ -25,7 +25,7 @@ if (Q2.toLowerCase() == 'yes' || Q2.toLowerCase() == 'y') {
     console.log("Q2,yes ans");
     count++;
 } else if (Q2.toLowerCase() == 'no' || Q2.toLowerCase() == 'n') {
-    alert("i Prefer Vanilla Ice Cream ");
+    alert("I Prefer Vanilla Ice Cream ");
     console.log("Q2,no ans");
 
 }
@@ -67,7 +67,7 @@ if (Q5.toLowerCase() == 'yes' || Q5.toLowerCase() == 'y') {
 
 let guess = 16;
 for (let i = 0; i < 4; i++) {
-    let x = prompt('try to guess my birth day?');
+    let x = prompt('try to guess my birthday?');
     if (x == guess) {
         alert('you guess it right');
         count++;
@@ -82,10 +82,10 @@ for (let i = 0; i < 4; i++) {
     }
 
 }
-let FavMovie = ['action films', 'comedies', 'adventure'];
+let FavMovie = ['action ', 'comedy', 'adventure'];
 let hints = ['love to laugh', 'not boring', 'alot of sound', 'some of ppl think its annyoing', 'not love story', 'can watch them 3d'];
 for (let i = 1; i <= 6; i++) {
-    let movie = prompt('try to know my favioter type of movie');
+    let movie = prompt('try to know my favourite type of movie');
 
     if (movie == FavMovie[0] || movie == FavMovie[1] || movie == FavMovie[2]) {
         alert('Thats right i suggest you to see knives out movie')
@@ -93,6 +93,9 @@ for (let i = 1; i <= 6; i++) {
     } else if (movie !== FavMovie[0] || movie !== FavMovie[1] || movie !== FavMovie[2]) {
 
         alert(hints[i]);
+    }
+    if(i==6) {
+        alert('THE correct answer is :action,comdy and adventure')
     }
 
 }
