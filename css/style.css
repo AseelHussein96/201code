@@ -1,15 +1,43 @@
 #header {
  
-    color: rgb(17, 18, 19);
-    background-color: lightcoral;
-    border: black;
-    box-sizing: content-box;
+    color : whitesmoke;
+background-color: black;
+
     text-align: center;
 
 }
 #main {
 
-    color: whitesmoke;
-    background-color: black;
+    color: black;
+    border-style:double;
+    border-color: coral;
+    background-color: lightblue;
+    
     text-size-adjust: 50px;
+    font-style:oblique;
+}
+#body{
+    background-image: url("https://wallpaperaccess.com/full/1567831.jpg");
+}
+#header2 {
+color: black;
+text-align: center;
+}
+#list {
+font-size: medium;
+font-style:normal;
+text-align: justify;
+border-style: solid;
+border-color: chartreuse;
+background-color:wheat;
+font-weight: bold;
+
+background-image: url("https://img1.mashed.com/img/gallery/the-real-difference-between-regular-popcorn-and-movie-theater-popcorn/intro-1592507709.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right top;
+  margin-right: 50px;
+  background-attachment: scroll;
+  
+}
 }
