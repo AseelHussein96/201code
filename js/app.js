@@ -88,14 +88,14 @@ for (let i = 1; i <= 6; i++) {
     let movie = prompt('try to know my favourite type of movie');
 
     if (movie == FavMovie[0] || movie == FavMovie[1] || movie == FavMovie[2]) {
-        alert('Thats right i suggest you to see knives out movie')
+        alert('Thats right i suggest you to see knives out movie');
         break;
     } else if (movie !== FavMovie[0] || movie !== FavMovie[1] || movie !== FavMovie[2]) {
 
         alert(hints[i]);
     }
     if(i==6) {
-        alert('THE correct answer is :action,comdy and adventure')
+        alert('THE correct answer is :action,comedy and adventure');
     }
 
 }
