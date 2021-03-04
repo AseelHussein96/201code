@@ -87,9 +87,10 @@ let hints = ['love to laugh', 'not boring', 'alot of sound', 'some of ppl think 
 for (let i = 1; i <= 6; i++) {
     let movie = prompt('try to know my favourite type of movie');
 
-    if (movie == FavMovie[0] || movie == FavMovie[1] || movie == FavMovie[2]) {
+    if (movie === FavMovie[0] || movie === FavMovie[1] || movie === FavMovie[2]) {
         alert('Thats right i suggest you to see knives out movie');
         break;
+        count++;
     } else if (movie !== FavMovie[0] || movie !== FavMovie[1] || movie !== FavMovie[2]) {
 
         alert(hints[i]);
